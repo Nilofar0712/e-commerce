@@ -1,0 +1,77 @@
+.navbar {
+    background-color: rgb(200, 71, 6);
+    overflow: visible;
+    display: flex;
+    padding: 10px;
+    border-bottom-style: solid;
+    font-size: medium;
+}
+
+.navbar .nav {
+    color: black;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+}
+
+.navbar .nav:hover {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(4, 42, 9) !important;
+    font: bold;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.log {
+    padding: 10px;
+    max-width: fit-content;
+}
+
+
+/* .cont{
+    
+    display:flex;
+    height:  100px;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.image-container img {
+    display: block;
+    /* Makes images inline */
+    width: 100px;
+    /* Set a fixed width */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 5px;
+    /* Add spacing between images */
+    margin-left: 35%;
+    margin-top: 50PX;
+    background-color: #f0f0f0;
+    border-radius: 100%;
+    width: 100px;
+}
+
+.tuna:hover {
+    background-color: rgb(15, 91, 156);
+}
+
+.walleye img {
+    margin-left: 590px;
+    width: 300px !important;
+    margin-top: 50px;
+}
+
+.back_img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
